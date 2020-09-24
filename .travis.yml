@@ -1,0 +1,10 @@
+before_script:
+  - npm install;
+script: npm test
+language: node_js
+env:
+  - PORT=3001
+node_js:
+  - "10"
+  - "12"
+  - "14"
